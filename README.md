@@ -136,6 +136,7 @@ bestChromoFitness = 603
 ind = 2
 Total size in mb = 4425
 ans = 0   0   1   0   0   1   1   1   1   0
+
 18th Run
 bestChromoFitness = 614
 ind = 6
@@ -154,3 +155,21 @@ ind = 2
 Total size in mb = 4425
 ans = 1   0   0   1   0   0   1   1   1   0
 
+## Plot of the best fitness values against iterations for 18th run. (Which has highest best fitness value = 614)
+
+![image](https://github.com/UdaraBGAkila/VideoSelectionDEOUDAK/assets/22652266/9cb6a00d-8fbf-4fd0-a9b8-095af2558469)
+
+## Success Rate
+Number of runs where best fitness value (614) occur = 11
+
+Total number of runs = 20
+
+Success Rate = (11/20) *100% = 55.5%
+
+## Mean Best Fitness Measure (MBF)
+
+Mean Best Fitness Measure = Total sum of best fitness values for each run/number of runs
+
+= (614*11+609+613+603+589+613+613+613+603+607) /20
+
+= 12217/20 = 610.85
